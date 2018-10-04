@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "452226635837",
+    "firebase_url": "https://racket-recomadation.firebaseio.com",
+    "project_id": "racket-recomadation",
+    "storage_bucket": "racket-recomadation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452226635837:android:b4591221e6aac5f2",
+        "android_client_info": {
+          "package_name": "com.yooncheol.yoonracket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452226635837-voksf6kn35s5mclv7a8dga4vkrtk1nk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkz5D2ajr8mzdC0T6l4A8xmM2f4Kn71J0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452226635837:android:9aa28cb8ccccd561",
+        "android_client_info": {
+          "package_name": "com.yoonracket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452226635837-voksf6kn35s5mclv7a8dga4vkrtk1nk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkz5D2ajr8mzdC0T6l4A8xmM2f4Kn71J0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
