@@ -1,6 +1,8 @@
 package com.yooncheol.yoonracket.data
 
-class Product{
+import java.io.Serializable
+
+class Product : Serializable{
     var id : String? = null
     var name : String? = null
     var company : String? = null

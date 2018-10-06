@@ -1,6 +1,7 @@
 package com.yooncheol.yoonracket.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -10,6 +11,7 @@ import com.bumptech.glide.Glide
 import com.yooncheol.yoonracket.R
 import com.yooncheol.yoonracket.adapter.contract.RacketAdapterContract
 import com.yooncheol.yoonracket.data.Product
+import com.yooncheol.yoonracket.view.detail.DetailActivity
 
 class RacketRecyclerViewAdapter(val context : Context)
     : RacketAdapterContract.View , RacketAdapterContract.Model , RecyclerView.Adapter<RacketRecyclerViewAdapter.SimpleRacketListViewHolder>(){
@@ -66,7 +68,9 @@ class RacketRecyclerViewAdapter(val context : Context)
             mCompany.setText(product.company)
 
             itemView.setOnClickListener {
-                listenerFunc?.invoke(position)
+                var intent : Intent = Intent(context,DetailActivity::class.java)
+                intent.putExtra("productObject",product)
+                context.startActivity(intent)
             }
         }
     }

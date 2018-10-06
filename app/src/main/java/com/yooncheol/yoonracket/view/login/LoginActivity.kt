@@ -1,4 +1,4 @@
-package com.yooncheol.yoonracket.view.main.login
+package com.yooncheol.yoonracket.view.login
 
 import android.content.Intent
 import android.os.Bundle
