@@ -5,13 +5,9 @@ import io.reactivex.Observable
 import io.reactivex.Single
 
 interface CommentSource {
+    fun insertToFirebase(comment : Comment)
+
     fun getCommentList(productId : String) : Observable<List<Comment>>
 
     fun getCommentOnce(productId : String) : Single<Comment>
-
-    fun getMyCommentList(name : String) : Observable<List<Comment>>
-
-
-
-
 }
